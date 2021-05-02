@@ -1,0 +1,23 @@
+.Card-Container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    width: auto;
+    height: auto;
+    justify-content: space-evenly;
+}
+.Card {
+    height: 225px;
+    width: 225px;
+    margin: 10%;
+    background-color: rgba(255, 105, 180, 0.50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.Card:hover {
+    cursor: pointer;
+    background-color: rgba(255, 105, 180);
+}
